@@ -1,0 +1,92 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    background: url('../img/topbar.png');
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    color: white;
+}
+
+.left {
+    width: 150px;
+    height: 600px;
+    background-color: black;
+    float: left;
+    background: url('../img/sidebar.png');
+}
+
+.left h1 {
+    color: white;
+    text-transform: uppercase;
+    transform-origin:214px 190px;
+    transform: rotate(-90deg);
+    text-align: center;
+    display: inline-block;
+    font-size: 4em;
+    width: 500px;
+}
+
+.right {
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    
+    
+}
+
+h2 {
+    color: #5da0a2;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+input[type=submit] {
+    background-color: #5da0a2;
+    border-radius: 6px;
+    padding: 12px 20px;
+    margin: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 56%;
+    cursor: pointer;
+    
+    
+}
+
+
+  
